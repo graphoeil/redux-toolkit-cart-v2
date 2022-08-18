@@ -14,6 +14,7 @@ const initialState = {
 const url = 'https://course-api.com/react-useReducer-cart-project';
 
 // Load data from server
+// We can pass params with createAsyncThunk, here type see dispatch(getCartItems('smartphones')) in App.js
 export const getCartItems = createAsyncThunk('cart/getCartItems', async(type, thunkAPI) => {
 	try {
 		const response = await axios.get(url);

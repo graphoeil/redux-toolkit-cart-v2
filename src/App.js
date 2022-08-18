@@ -23,7 +23,7 @@ const App = () => {
 
 	// Load data from server
 	useEffect(() => {
-		dispatch(getCartItems());
+		dispatch(getCartItems('smartphones'));
 	},[dispatch]);
 
 	// Return

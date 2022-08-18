@@ -1,5 +1,5 @@
 # Live preview
-https://redux-toolkit-cart.netlify.app/
+https://redux-toolkit-cart-v2.netlify.app/
 
 # Getting Started with Create React App
 
